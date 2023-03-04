@@ -1,0 +1,147 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ececec;
+}
+
+.container {
+    display: grid;
+    padding-bottom: 70px;
+}
+
+.cabecalho {
+    background: linear-gradient(to right, #d4f152 0%, #89ff6e 33%);
+    width: 100%;
+    height: 4vh;
+}
+
+.area-stop {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-around;
+}
+
+.tourist-stop {
+    display: grid;
+    justify-items: center;
+    height: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+.stop {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 5% auto auto;
+    margin-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.history {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #fff;
+}
+
+.title-stop {
+    font-size: 20px;
+    margin: 0;
+    color: #000;
+}
+
+.return {
+    color: white;
+    text-decoration: none;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.rodape {
+    text-align: center;
+    background-color: #353E48;
+    color: #FFF;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+/* Responsivo*/
+@media (max-width: 1200px) {
+    .area-stop {
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+    }
+
+    .stop {
+        grid-template-rows: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .area-stop {
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+    }
+
+    .stop {
+        grid-template-rows: auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .area-stop {
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+    }
+
+    .stop {
+        grid-template-rows: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .area-stop {
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+    }
+
+    .stop {
+        grid-template-rows: auto;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .area-stop {
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+    }
+
+    .stop {
+        grid-template-rows: auto;
+    }
+
+}
