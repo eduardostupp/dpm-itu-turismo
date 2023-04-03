@@ -1,0 +1,18 @@
+{
+	"name": "Itu Turismo - Ituporanga",
+	"short_name": "Itu Turismo",
+	"description": "Pontos Turísticos de Ituporanga",
+	"orientation": "portrait",
+	"background_color": "#f1b652",
+	"theme_color": "#89ff6e",
+	"display": "standalone",
+	"start_url": "index.html",
+	"icons": [
+		{
+			"src": "https://alunosbsn.unidavi.edu.br/~aluno_1019708/itu-turismo/img/santa_itu.jpg",
+			"type": "image/jpg",
+			"sizes": "144x144"
+		}
+	],
+	"use_cache": "true"
+}
