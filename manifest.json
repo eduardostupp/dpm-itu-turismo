@@ -9,8 +9,8 @@
 	"start_url": "index.html",
 	"icons": [
 		{
-			"src": "https://alunosbsn.unidavi.edu.br/~aluno_1019708/itu-turismo/img/santa_itu.jpg",
-			"type": "image/jpg",
+			"src": "https://alunosbsn.unidavi.edu.br/~aluno_1019708/itu-turismo/img/img_itu.png",
+			"type": "image/png",
 			"sizes": "144x144"
 		}
 	],
